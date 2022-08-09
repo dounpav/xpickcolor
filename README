@@ -1,0 +1,13 @@
+xpickcolor
+==========
+
+Simple X11 program that reads the color of the pixel of the screen. The pixel
+to read is specified by the coordinates of the mouse cursor.
+
+
+References
+==========
+
+https://tronche.com/gui/x/xlib/
+https://bkhome.org/news/202110/get-the-colour-of-any-screen-pixel.html
+
