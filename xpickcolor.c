@@ -35,8 +35,6 @@ int main(void)
 			&root_x, &root_y,
 			&mask);
 
-	fprintf(stdout, "Cursor coordinates x: %d y: %d\n", root_x, root_y);
-
 	/* Retrive an image that the cursor is pointing to */
 	image = XGetImage(dpy, XRootWindow(dpy, XDefaultScreen(dpy)),
 			root_x, root_y, 1, 1, AllPlanes, XYPixmap);
